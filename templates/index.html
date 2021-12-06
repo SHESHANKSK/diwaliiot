@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Diwali | IoT Project</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='/style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <style>
+      .hide {
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 1px;
+        height: 1px;
+      }
+    </style>
+    <iframe name="hiddenFrame" class="hide"></iframe>
+      <div class="shadow"></div>
+      <div class="diya">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="dots"></div>
+      </div>
+      <div class="inside">
+        <div class="light"></div>
+        <div class="flame"></div>
+      </div>
+    </div>
+    <p id="wishes">&emsp; Happy &emsp; &nbsp; Diwali</p>
+    <p class="box-round">An occasion to celebrate victory over defeat, light over darkness, awareness over ignorance, an occasion to celebrate life. May this auspicious occasion light up your life with happiness, joy and peace. Happy Diwali!</p>
+    <div class="form-box">
+      <p class="form-box-desc">Pick a Color for your Diya</p>
+      <hr>
+      <br>
+      <form action="/form" method="post" target="hiddenFrame">
+        <input type="color" id="favcolor" name="input_color" value="#F4C631">
+        <input type="submit" id="submit_button" value="Light it">
+      </form>
+    </div>
+  </body>
+ 
+</html>
