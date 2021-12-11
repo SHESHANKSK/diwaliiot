@@ -2,6 +2,12 @@
 
 Diwali Flask based Internet of Things (IoT) static application that changes the color of the lamp wick based on the color given by the user in the application.
 
+![image](website.jpg)
+
+[Diwali IoT](https://diwaliiot.herokuapp.com/)
+
+[API Endpoint](https://diwaliiot.herokuapp.com/api)
+
 ---
 
 The following technologies are ued to accompalish this project
