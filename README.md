@@ -1,6 +1,6 @@
 # Diwali-IoT
 
-Diwali Flask based Internet of Things (IoT) static application that changes the color of the lamp wick based on the color given by the user in the application.
+Diwali-iot is a Flask based Internet of Things (IoT) static application that changes the color of the lamp wick based on the color given by the user in the application.
 
 ![image](website.jpg)
 
