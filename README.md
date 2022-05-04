@@ -4,8 +4,6 @@ Diwali-iot is a Flask based Internet of Things (IoT) static application that cha
 
 ![image](website.jpg)
 
-[Diwali IoT](https://diwaliiot.herokuapp.com/)
-
 [API Endpoint](https://diwaliiot.herokuapp.com/api)
 
 ---
